@@ -1,0 +1,57 @@
+/*30/5/22*/
+
+/*Hacer referencia en el archivo html →  <link rel="stylesheet" href="MisEstilos.css"> */
+
+/*______________________-Asignar color__________________________________________________*/
+
+body{ /*Regla para modificar el color de fondo*/
+    background-color: burlywood;
+}
+
+div{ /* Asignar color de fondo a los DIV por herencia → Abuelo */ /*DIV general*/
+    background-color: lightblue;
+}
+
+.header{  /* Asignar color a la clase Header → padre  */  /*DIV por clase*/
+    background-color: lightcyan;
+}
+
+#divImg { /*DIV por id*/
+    background-color: darkseagreen;
+}
+
+/*_______________________________Formato tabla__________________________________________*/
+table{
+    border: 1px solid crimson; /*Linea externa→contorno*/
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+th{ /* grosor, tipo de línea , color → contorno del encabezado */
+    border: 2px solid crimson;
+}
+
+td{ /* celdas generales */ 
+    border: 1.5px solid crimson;
+}
+
+ul{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: azure;  /*color de fondo de la lista del menú  */
+}
+
+li a{
+    display: block;
+    color: purple; /*Color de letra de la lista del menú cuando NO está el cursor  */
+    padding: 8px 0 8px 16px;
+    text-decoration: dashed;
+}
+  /*Interacción con el cursor*/
+li a:hover{
+    background-color:burlywood; /*Color de la lista del menú cuando está el cursor*/
+    color: black; /*Color de letra de la lista del menú cuando  está el cursor */
+}

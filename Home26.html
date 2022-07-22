@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de registro</title>
+    <link rel="stylesheet" href="MisEstilos.css">
+    <!--Hacer referencia al archivo css-->
+    <style></style>
+    <script src="MisFunciones.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h2> UNIVERSIDAD NACIONAL AUTÓNOMA DE HONDURAS</h2>
+
+        <div>
+            <section>
+                <nav>
+
+                    <ul>
+                        <li><a href="https://registro.unah.edu.hn/">Página de registro</a></li>
+                        <li><a href="https://campusvirtual.unah.edu.hn/login/index.php">Página UNAH</a></li>
+                    </ul>
+
+                </nav>
+            </section>
+        </div>
+
+        <br>
+            <div id = "divImg">
+                <img src="https://registro.unah.edu.hn/images/banner-superior.jpg" alt="No hay imagen">
+            </div>
+        <br>
+
+    </div>
+
+    <Div class="forms">
+        <form action="">
+            <label for="">Nombre</label>
+            <input type="text">
+            <br>
+            <br>
+            <label for="">Apellido</label>
+            <input type="">
+            <br>
+            <br>
+            <label for="">Fecha de registro</label>
+            <input type="date" name="" id="">
+            <br>
+            <br>
+            <input type="button" value="AGREGAR" id="MiBoton">
+            <br>
+            <br>
+        </form>
+    </Div>
+
+    <hr>
+
+    <div class="table">
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Fecha de registro</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Juan</td>
+                    <td>Flores</td>
+                    <td>21/05/1999</td>
+                </tr>
+                <tr>
+                    <td>Camila</td>
+                    <td>Dubon</td>
+                    <td>15/06/1990</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+    <div id="Botones">
+        <button onclick="FechaActual()">FECHA ACTUAL</button>  <!--función JS-->
+        <button onclick="Sumar()"> SUMAR</button>
+    </div>
+
+    <hr>
+    <div class="footer">
+        <p id="MiParrafo">Derechos reservados UNAH 2022</p>
+    </div>
+
+</body>
+
+</html>
